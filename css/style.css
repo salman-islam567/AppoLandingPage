@@ -1,0 +1,301 @@
+/* global classes */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+}
+/* leyout */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1{
+    width: 8.33%;
+    float: left;
+}
+.col-2{
+    width: 16.66%;
+    float: left;
+}
+.col-3{
+    width: 25%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-5{
+    width: 41.66%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-7{
+    width: 58.33%;
+    float: left;
+}
+.col-8{
+    width: 66.66%;
+    float: left;
+}
+.col-9{
+    width: 75%;
+    float: left;
+}
+.col-10{
+   width: 83.33%;
+   float: left;
+}
+.col-11{
+    width: 91.66%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+
+/* header section */
+header{
+    width: 100%;
+    height: 550px;
+    background-image: url(../image/bg1.png);
+    background-attachment: fixed;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    margin: auto;
+}
+.logo-part p{
+    font-size: 30px;
+    color: aqua;
+}
+.menu{
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+.menu li {
+    display: inline-block;
+    margin: 0px 35px;
+    padding: 7px;
+}
+.menu a{
+    font-size: 15px;
+    color: #ffff;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.btn-part{
+    padding: 10px;
+}
+.btn-part a button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.btn-part a{
+    font-size: 0px;
+}
+.underline-1{
+    border: 1px solid #4a525f;
+    width: 100%;
+}
+.hero-part{
+    width: 100%;
+    /* height: 50%; */
+    padding: 50px 150px 0px;
+}
+.hero-writing-part h1{
+    width: 70%;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.hero-writing-part p{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.hero-btn-group{
+    padding: 20px 0px;
+}
+.hero-btn-group a button{
+    padding: 10px;
+    margin: 5px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.btn-2{
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 5px;
+}
+.hero-image-part img{
+    height: 500px;
+    margin-left: 200px;
+}
+
+/* about section */
+#about{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+.about-writing-part{
+    width: 100%;
+    padding-top: 100px;
+}
+.about-writing-part h1{
+    width: 50%;
+    font-size: 30px;
+    padding: 50px;
+    margin: auto;
+} 
+.underline{
+    border: 2px solid aqua;
+    width: 6%;
+    margin: auto;
+    border-radius: 10px;
+}
+.writing-box-part{
+    width: 100%;
+    padding: 100px;
+    margin-left: 50px;
+    margin: 10px 50px;
+}
+.writing-box{
+    width: 20%;
+    border: 1px solid rgb(218, 212, 212);
+    padding: 20px;
+    box-shadow: 0px 0px 6px;
+    margin: 10px;
+}
+.writing-box h2{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+.writing-box p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/* <!-- smartphone --> */
+
+.image-s img{
+    width: 100%;
+    height: 310px;
+}
+.smart-writing-part{
+    background-color: #f5f6fa;
+    height: 315px;
+}
+.smart-writing-part h1{
+    width: 70%;
+    padding: 50px 100px;
+}
+.smart-writing-part p{
+    width: 100%;
+    padding: 0px 100px 50px;
+}
+
+/* <!-- app presentation --> */
+#presentasion{
+    background-color: rgb(253, 251, 251);
+}
+.pst-writing-part{
+    text-align: end;
+    padding: 50px;
+}
+.pst-writing-part h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+}
+.pst-writing-part p{
+    font-size: 15px;
+    font-weight: 200;
+    width: 80%;
+    padding: 20px;
+    margin-left: 120px;
+}
+.pst-writing-part a button{
+    padding: 10px;
+    margin: 5px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.pst-image{
+    padding: 60px;
+    padding-right: 100px;
+}
+.pst-image img{
+    width: 100%;
+    padding-right: 100px;
+}
+.middle{
+    height: 350px;
+}
+.pst-image2{
+    /* height: 350px;  */
+}
+.pst-image2 img{
+    width: 70%;
+    height: 350px;
+    padding-left: 150px;
+}
+.heart { 
+   border: 1px solid rgb(202, 200, 200);
+   width: 30%; 
+   padding: 5px 20px;
+   margin: 5px;
+   box-shadow: 0px 0px 5px;
+}
+.heart a {
+    display: inline-block;
+    padding: 7px;
+    margin: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.heart2{
+    background-color: rgb(14, 238, 219);
+    border: 1px solid rgb(18, 233, 186);
+    width: 30%; 
+    padding: 20px 20px;
+    margin: 2px;
+    box-shadow: 0px 0px 10px;
+}
+.heart2 p{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.buttom{
+    background-color: #f5f6fa;
+    background-attachment: fixed;
+    /* padding: 0px; */
+}
